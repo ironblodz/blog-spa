@@ -1,4 +1,3 @@
-
 # 🚀 Desafio Front-End: Landing Page para Blog
 
 Este repositório serve como base para o desafio da comunidade. O objetivo é criar uma landing page de um blog, utilizando apenas HTML, CSS e JavaScript puro.
@@ -44,13 +43,3 @@ Reproduzir o layout fornecido em Figma, criando uma página moderna, responsiva 
 2. Cria a tua solução na estrutura indicada.
 3. Faz push para o teu GitHub.
 4. Partilha o link no canal do desafio no Discord.
-
-## 🗓️ Data limite
-
-**30 de Abril de 2025 às 23h59** (podes ajustar conforme o desafio).
-
-## 💬 Dúvidas?
-
-Fala connosco no Discord no canal `#desafios` ou envia mensagem privada.
-
-**Boa sorte — e diverte-te a programar!**
