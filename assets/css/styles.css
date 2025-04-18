@@ -228,6 +228,15 @@ header .column-end button:last-child {
   text-align: center;
 }
 
+.articles-container .article-grid .article-1 h3 {
+  color: #111827;
+  font-weight: 600;
+}
+
+.articles-container .article-grid .article-1 p {
+  color: #648e9e;
+}
+
 .articles-container .article-grid .article-2 {
   border-radius: 28px;
   background: linear-gradient(128deg, #ffedd5 2.71%, #fed7aa 97.55%);
@@ -248,6 +257,15 @@ header .column-end button:last-child {
   padding: 13px 31px;
   width: 40%;
   text-align: center;
+}
+
+.articles-container .article-grid .article-2 h3 {
+  color: #111827;
+  font-weight: 600;
+}
+
+.articles-container .article-grid .article-2 p {
+  color: #c07e63;
 }
 
 .articles-container .article-grid .article-2 .article-svg {
@@ -278,6 +296,15 @@ header .column-end button:last-child {
   text-align: center;
 }
 
+.articles-container .article-grid .article-3 h3 {
+  color: #111827;
+  font-weight: 600;
+}
+
+.articles-container .article-grid .article-3 p {
+  color: #b49467;
+}
+
 .articles-container .article-grid .article-3 .article-svg {
   display: flex;
   justify-content: center;
@@ -294,6 +321,7 @@ header .column-end button:last-child {
   justify-content: space-between;
   align-items: space-between;
   flex-direction: column;
+  overflow: hidden;
 }
 
 .articles-container .article-grid .article-4 p.tag {
@@ -303,6 +331,29 @@ header .column-end button:last-child {
   padding: 13px 31px;
   width: 20%;
   text-align: center;
+}
+
+.articles-container .article-grid .article-4 h3 {
+  color: #111827;
+  font-weight: 600;
+}
+
+.articles-container .article-grid .article-4 p {
+  color: #746fa7;
+}
+
+.articles-container .article-grid .article-4 .article-imgs {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.articles-container .article-grid .article-4 .article-imgs img:first-child {
+  width: 135px;
+}
+
+.articles-container .article-grid .article-4 .article-imgs img:last-child {
+  width: 300px;
 }
 
 .articles-container .article-grid .article-5 {
@@ -326,8 +377,9 @@ header .column-end button:last-child {
   padding: 0 60px;
 }
 
-.articles-container .article-grid .article-5 .article-content h3 {
-  color: white;
+.articles-container .article-grid .article-5 h3 {
+  color: #111827;
+  font-weight: 600;
 }
 
 .articles-container .article-grid .article-5 .article-content p {
