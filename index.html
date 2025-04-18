@@ -1,246 +1,215 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Blog-SPA</title>
 
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
-      rel="stylesheet"
-    />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Blog-SPA</title>
 
-    <link rel="stylesheet" href="/assets/css/_variables.css" />
-    <link rel="stylesheet" href="/assets/css/styles.css" />
-  </head>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+    rel="stylesheet" />
 
-  <body>
-    <header>
-      <div class="column-start">
-        <svg
-          width="23"
-          height="23"
-          viewBox="0 0 23 23"
-          fill="none"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <g id="Left Menu">
-            <g id="Logo">
-              <g id="Subtract">
-                <path
-                  fill-rule="evenodd"
-                  clip-rule="evenodd"
-                  d="M-2.62268e-07 17C-1.17422e-07 20.3137 2.68629 23 6 23L17 23C20.3137 23 23 20.3137 23 17L23 11.2454C21.6304 12.3433 19.8919 13 18 13C13.5817 13 10 9.41828 10 5C10 3.10811 10.6567 1.3696 11.7546 -5.13811e-07L6 -2.62268e-07C2.68629 -1.17422e-07 -8.8794e-07 2.68629 -7.43093e-07 6L-2.62268e-07 17Z"
-                  fill="#AF51C5"
-                />
-                <path
-                  fill-rule="evenodd"
-                  clip-rule="evenodd"
-                  d="M-2.62268e-07 17C-1.17422e-07 20.3137 2.68629 23 6 23L17 23C20.3137 23 23 20.3137 23 17L23 11.2454C21.6304 12.3433 19.8919 13 18 13C13.5817 13 10 9.41828 10 5C10 3.10811 10.6567 1.3696 11.7546 -5.13811e-07L6 -2.62268e-07C2.68629 -1.17422e-07 -8.8794e-07 2.68629 -7.43093e-07 6L-2.62268e-07 17Z"
-                  fill="url(#paint0_linear_1_4)"
-                />
-              </g>
-              <circle
-                id="Ellipse 12"
-                cx="18"
-                cy="5"
-                r="4"
-                transform="rotate(-90 18 5)"
-                fill="#AF51C5"
-              />
+  <link rel="stylesheet" href="/assets/css/_variables.css" />
+  <link rel="stylesheet" href="/assets/css/styles.css" />
+</head>
+
+<body>
+  <header>
+    <div class="column-start">
+      <svg width="23" height="23" viewBox="0 0 23 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <g id="Left Menu">
+          <g id="Logo">
+            <g id="Subtract">
+              <path fill-rule="evenodd" clip-rule="evenodd"
+                d="M-2.62268e-07 17C-1.17422e-07 20.3137 2.68629 23 6 23L17 23C20.3137 23 23 20.3137 23 17L23 11.2454C21.6304 12.3433 19.8919 13 18 13C13.5817 13 10 9.41828 10 5C10 3.10811 10.6567 1.3696 11.7546 -5.13811e-07L6 -2.62268e-07C2.68629 -1.17422e-07 -8.8794e-07 2.68629 -7.43093e-07 6L-2.62268e-07 17Z"
+                fill="#AF51C5" />
+              <path fill-rule="evenodd" clip-rule="evenodd"
+                d="M-2.62268e-07 17C-1.17422e-07 20.3137 2.68629 23 6 23L17 23C20.3137 23 23 20.3137 23 17L23 11.2454C21.6304 12.3433 19.8919 13 18 13C13.5817 13 10 9.41828 10 5C10 3.10811 10.6567 1.3696 11.7546 -5.13811e-07L6 -2.62268e-07C2.68629 -1.17422e-07 -8.8794e-07 2.68629 -7.43093e-07 6L-2.62268e-07 17Z"
+                fill="url(#paint0_linear_1_4)" />
             </g>
+            <circle id="Ellipse 12" cx="18" cy="5" r="4" transform="rotate(-90 18 5)" fill="#AF51C5" />
+          </g>
+        </g>
+        <defs>
+          <linearGradient id="paint0_linear_1_4" x1="-10" y1="15.5" x2="35.8187" y2="4.7287"
+            gradientUnits="userSpaceOnUse">
+            <stop stop-color="#2F79CB" />
+            <stop offset="1" stop-color="#AF51C5" />
+          </linearGradient>
+        </defs>
+      </svg>
+    </div>
+    <div class="column-middle">
+      <nav>
+        <ul>
+          <li>
+            <a href="#">Featured</a>
+          </li>
+          <li>
+            <a href="#">Tutorial</a>
+          </li>
+          <li>
+            <a href="#">Freelance</a>
+          </li>
+          <li>
+            <a href="#">Design</a>
+          </li>
+          <li>
+            <a href="#">Freebies</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <div class="column-end">
+      <button type="submit">Login</button>
+      <button type="submit">Sign up</button>
+    </div>
+  </header>
+  <main>
+    <section class="hero-section">
+      <div class="eclipse">
+        <svg width="332" height="619" viewBox="0 0 332 619" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <g id="Ellipse 24" filter="url(#filter0_f_11_3)">
+            <circle cx="22.5" cy="309.5" r="109.5" fill="#1D4ED8" />
           </g>
           <defs>
-            <linearGradient
-              id="paint0_linear_1_4"
-              x1="-10"
-              y1="15.5"
-              x2="35.8187"
-              y2="4.7287"
-              gradientUnits="userSpaceOnUse"
-            >
-              <stop stop-color="#2F79CB" />
-              <stop offset="1" stop-color="#AF51C5" />
-            </linearGradient>
+            <filter id="filter0_f_11_3" x="-287" y="0" width="619" height="619" filterUnits="userSpaceOnUse"
+              color-interpolation-filters="sRGB">
+              <feFlood flood-opacity="0" result="BackgroundImageFix" />
+              <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
+              <feGaussianBlur stdDeviation="100" result="effect1_foregroundBlur_11_3" />
+            </filter>
           </defs>
         </svg>
       </div>
-      <div class="column-middle">
-        <nav>
-          <ul>
-            <li>
-              <a href="#">Featured</a>
-            </li>
-            <li>
-              <a href="#">Tutorial</a>
-            </li>
-            <li>
-              <a href="#">Freelance</a>
-            </li>
-            <li>
-              <a href="#">Design</a>
-            </li>
-            <li>
-              <a href="#">Freebies</a>
-            </li>
-          </ul>
-        </nav>
+      <div class="hero-column-start">
+        <h1>Inspiration is everywhere</h1>
+        <p>
+          There is no passion to be found playing small in settling for a life
+          that is less than the one you are capable of living
+        </p>
+        <button type="submit">Get started</button>
       </div>
-      <div class="column-end">
-        <button>Login</button>
-        <button>Sign up</button>
+      <div class="hero-column-end">
+        <img src="/assets/images/img-saly.png" alt="Saly Hero" />
       </div>
-    </header>
-    <main>
-      <section class="hero-section">
-        <div class="eclipse">
-          <svg
-            width="332"
-            height="619"
-            viewBox="0 0 332 619"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <g id="Ellipse 24" filter="url(#filter0_f_11_3)">
-              <circle cx="22.5" cy="309.5" r="109.5" fill="#1D4ED8" />
-            </g>
-            <defs>
-              <filter
-                id="filter0_f_11_3"
-                x="-287"
-                y="0"
-                width="619"
-                height="619"
-                filterUnits="userSpaceOnUse"
-                color-interpolation-filters="sRGB"
-              >
-                <feFlood flood-opacity="0" result="BackgroundImageFix" />
-                <feBlend
-                  mode="normal"
-                  in="SourceGraphic"
-                  in2="BackgroundImageFix"
-                  result="shape"
-                />
-                <feGaussianBlur
-                  stdDeviation="100"
-                  result="effect1_foregroundBlur_11_3"
-                />
-              </filter>
-            </defs>
-          </svg>
-        </div>
-        <div class="hero-column-start">
-          <h1>Inspiration is everywhere</h1>
-          <p>
-            There is no passion to be found playing small in settling for a life
-            that is less than the one you are capable of living
-          </p>
-          <button>Get started</button>
-        </div>
-        <div class="hero-column-end">
-          <img src="/assets/images/img-saly.png" alt="Saly Hero" />
-        </div>
-        <div class="eclipse-right">
-          <svg
-            width="332"
-            height="619"
-            viewBox="0 0 332 619"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <g id="Ellipse 24" filter="url(#filter0_f_11_3)">
-              <circle cx="22.5" cy="309.5" r="109.5" fill="#1D4ED8" />
-            </g>
-            <defs>
-              <filter
-                id="filter0_f_11_3"
-                x="-287"
-                y="0"
-                width="619"
-                height="619"
-                filterUnits="userSpaceOnUse"
-                color-interpolation-filters="sRGB"
-              >
-                <feFlood flood-opacity="0" result="BackgroundImageFix" />
-                <feBlend
-                  mode="normal"
-                  in="SourceGraphic"
-                  in2="BackgroundImageFix"
-                  result="shape"
-                />
-                <feGaussianBlur
-                  stdDeviation="100"
-                  result="effect1_foregroundBlur_11_3"
-                />
-              </filter>
-            </defs>
-          </svg>
-        </div>
-      </section>
-      <section class="gallerie-section">
-        <div class="gallerie-header">
-          <h2>Galleries</h2>
-          <p>view all</p>
-        </div>
-        <div class="gallerie-content">
-          <img src="/assets/images/img-instagram.png" alt="Instagram" />
-          <img src="/assets/images/img-tesla.png" alt="Tesla" />
-          <img src="/assets/images/img-imessage.png" alt="iMessage" />
-          <img src="/assets/images/img-tiktok.png" alt="Tiktok" />
-        </div>
-      </section>
-      <section class="articles-container">
-        <header class="articles-header">
-          <h2>Latest Articles</h2>
-          <p>view all</p>
-        </header>
-        <div class="article-grid">
-          <article class="article-1 article">
-            <p class="tag">Freelance</p>
-            <div>
-              <h3>Freelancer & WFH</h3>
-              <p>
-                Learn how to be a freelancer, work and stay at home as you
-                want...
-                <a href="#">(read more)</a>
-              </p>
-            </div>
-          </article>
-          <article class="article-2 article">
-            <p class="tag">Tips & Trick</p>
-            <div>
-              <h3>Pomodoro Method</h3>
-              <p>
-                Learn how to be a programmer, work and managing time with
-                pomodoro... <a href="#">(read more)</a>
-              </p>
-            </div>
-          </article>
-          <article class="article-3 article">
-            <p class="tag">Tutorial</p>
-            <div>
-              <h3>Ready to Switch? It's simple.</h3>
-              <p>
-                Create any collection of items. For example, a selection of red
-                jackets or whatever you...<a href="#"> (read more)</a>
-              </p>
-            </div>
-          </article>
-          <article class="article-4 article">
-            <p class="tag">Projection</p>
-            <div>
-              <h3>Build a solid team</h3>
-              <p>
-                If there’s anything on your mind, we’d love to hear from you...
-                <a href="#">(read more)</a>
-              </p>
-            </div>
-          </article>
-        </div>
-      </section>
-    </main>
-    <script src="/assets/js/main.js"></script>
-  </body>
+      <div class="eclipse-right">
+        <svg width="332" height="619" viewBox="0 0 332 619" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <g id="Ellipse 24" filter="url(#filter0_f_11_3)">
+            <circle cx="22.5" cy="309.5" r="109.5" fill="#1D4ED8" />
+          </g>
+          <defs>
+            <filter id="filter0_f_11_3" x="-287" y="0" width="619" height="619" filterUnits="userSpaceOnUse"
+              color-interpolation-filters="sRGB">
+              <feFlood flood-opacity="0" result="BackgroundImageFix" />
+              <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
+              <feGaussianBlur stdDeviation="100" result="effect1_foregroundBlur_11_3" />
+            </filter>
+          </defs>
+        </svg>
+      </div>
+    </section>
+    <section class="gallerie-section">
+      <div class="gallerie-header">
+        <h2>Galleries</h2>
+        <p>view all</p>
+      </div>
+      <div class="gallerie-content">
+        <img src="/assets/images/img-instagram.png" alt="Instagram" />
+        <img src="/assets/images/img-tesla.png" alt="Tesla" />
+        <img src="/assets/images/img-imessage.png" alt="iMessage" />
+        <img src="/assets/images/img-tiktok.png" alt="Tiktok" />
+      </div>
+    </section>
+    <section class="articles-container">
+      <header class="articles-header">
+        <h2>Latest Articles</h2>
+        <p>view all</p>
+      </header>
+      <div class="article-grid">
+        <article class="article-1 article">
+          <p class="tag">Freelance</p>
+          <div>
+            <h3>Freelancer &amp; WFH</h3>
+            <p>
+              Learn how to be a freelancer, work and stay at home as you
+              want...
+              <a href="#">(read more)</a>
+            </p>
+          </div>
+        </article>
+        <article class="article-2 article">
+          <p class="tag">Tips &amp; Trick</p>
+          <div class="article-svg">
+            <svg width="293" height="133" viewBox="0 0 293 133" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="146.5" cy="66.5" r="66.5" fill="#F9FAFB" />
+              <path
+                d="M155.68 46.0002C162.46 46.0002 167 50.7582 167 57.8382V74.1782C167 81.2402 162.46 86.0002 155.68 86.0002H138.34C131.56 86.0002 127 81.2402 127 74.1782V57.8382C127 50.7582 131.56 46.0002 138.34 46.0002H155.68ZM146.3 55.8382C145.48 55.8382 144.8 56.5202 144.8 57.3382V67.4402C144.8 67.9602 145.08 68.4602 145.54 68.7202L153.38 73.4002C153.62 73.5602 153.9 73.6202 154.16 73.6202C154.66 73.6202 155.16 73.3602 155.44 72.8802C155.88 72.1782 155.64 71.2582 154.92 70.8202L147.8 66.5802V57.3382C147.8 56.5202 147.14 55.8382 146.3 55.8382Z"
+                fill="#FDBA74" />
+              <circle cx="254.5" cy="89.5" r="38.5" fill="#F9FAFB" />
+              <path
+                d="M260.063 78.3334C264.018 78.3334 266.667 81.1089 266.667 85.2389V94.7706C266.667 98.8901 264.018 101.667 260.063 101.667H249.948C245.993 101.667 243.333 98.8901 243.333 94.7706V85.2389C243.333 81.1089 245.993 78.3334 249.948 78.3334H260.063ZM254.592 84.0723C254.113 84.0723 253.717 84.4701 253.717 84.9473V90.8401C253.717 91.1434 253.88 91.4351 254.148 91.5868L258.722 94.3168C258.862 94.4101 259.025 94.4451 259.177 94.4451C259.468 94.4451 259.76 94.2934 259.923 94.0134C260.18 93.6039 260.04 93.0673 259.62 92.8118L255.467 90.3384V84.9473C255.467 84.4701 255.082 84.0723 254.592 84.0723Z"
+                fill="#FDBA74" />
+              <circle cx="38.5" cy="89.5" r="38.5" fill="#F9FAFB" />
+              <path
+                d="M44.0632 78.3334C48.0182 78.3334 50.6666 81.1089 50.6666 85.2389V94.7706C50.6666 98.8901 48.0182 101.667 44.0632 101.667H33.9482C29.9932 101.667 27.3332 98.8901 27.3332 94.7706V85.2389C27.3332 81.1089 29.9932 78.3334 33.9482 78.3334H44.0632ZM38.5916 84.0723C38.1132 84.0723 37.7166 84.4701 37.7166 84.9473V90.8401C37.7166 91.1434 37.8799 91.4351 38.1482 91.5868L42.7216 94.3168C42.8616 94.4101 43.0249 94.4451 43.1766 94.4451C43.4682 94.4451 43.7599 94.2934 43.9232 94.0134C44.1799 93.6039 44.0399 93.0673 43.6199 92.8118L39.4666 90.3384V84.9473C39.4666 84.4701 39.0816 84.0723 38.5916 84.0723Z"
+                fill="#FDBA74" />
+            </svg>
+          </div>
+          <div>
+            <h3>Pomodoro Method</h3>
+            <p>
+              Learn how to be a programmer, work and managing time with
+              pomodoro... <a href="#">(read more)</a>
+            </p>
+          </div>
+        </article>
+        <article class="article-3 article">
+          <p class="tag">Tutorial</p>
+          <div class="article-svg">
+            <svg width="147" height="147" viewBox="0 0 147 147" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="73.5" cy="73.5" r="73.5" fill="#F9FAFB" />
+              <path
+                d="M80.8994 57.5606C80.8194 58.0606 80.7794 58.5606 80.7794 59.0606C80.7794 63.5606 84.4194 67.1986 88.8994 67.1986C89.3994 67.1986 89.8794 67.1406 90.3794 67.0606V83.1986C90.3794 89.9806 86.3794 94.0006 79.5794 94.0006H64.8014C57.9994 94.0006 53.9994 89.9806 53.9994 83.1986V68.4006C53.9994 61.6006 57.9994 57.5606 64.8014 57.5606H80.8994ZM81.3014 69.7206C80.7594 69.6606 80.2214 69.9006 79.8994 70.3406L75.0614 76.6006L69.5194 72.2406C69.1794 71.9806 68.7794 71.8786 68.3794 71.9206C67.9814 71.9806 67.6214 72.1986 67.3794 72.5186L61.4614 80.2206L61.3394 80.4006C60.9994 81.0386 61.1594 81.8586 61.7594 82.3006C62.0394 82.4806 62.3394 82.6006 62.6794 82.6006C63.1414 82.6206 63.5794 82.3786 63.8594 82.0006L68.8794 75.5386L74.5794 79.8206L74.7594 79.9386C75.3994 80.2786 76.1994 80.1206 76.6594 79.5186L82.4394 72.0606L82.3594 72.1006C82.6794 71.6606 82.7394 71.1006 82.5194 70.6006C82.3014 70.1006 81.8194 69.7606 81.3014 69.7206ZM89.1796 54C91.8396 54 93.9996 56.16 93.9996 58.82C93.9996 61.48 91.8396 63.64 89.1796 63.64C86.5196 63.64 84.3596 61.48 84.3596 58.82C84.3596 56.16 86.5196 54 89.1796 54Z"
+                fill="#FACC15" />
+            </svg>
+          </div>
+
+          <div>
+            <h3>Ready to Switch? It's simple.</h3>
+            <p>
+              Create any collection of items. For example, a selection of red
+              jackets or whatever you...<a href="#"> (read more)</a>
+            </p>
+          </div>
+        </article>
+        <article class="article-4 article">
+          <p class="tag">Projection</p>
+          <div>
+            <h3>Build a solid team</h3>
+            <p>
+              If there’s anything on your mind, we’d love to hear from you...
+              <a href="#">(read more)</a>
+            </p>
+          </div>
+        </article>
+        <article class="article-5 article">
+          <div class="article-content">
+            <h3>Collect and Save Inspirations</h3>
+            <p>Find inspiration has never been easier than it is now.</p>
+            <button>Start exploring</button>
+          </div>
+          <div class="grid-imagens">
+            <img src="/assets/images/img_collect.png" alt="Collect">
+          </div>
+        </article>
+      </div>
+    </section>
+  </main>
+  <script src="/assets/js/main.js"></script>
+</body>
+
 </html>
