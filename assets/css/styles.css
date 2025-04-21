@@ -397,3 +397,38 @@ header .column-end button:last-child {
 .articles-container .article-grid .article-5 .grid-imagens img {
   width: 534px;
 }
+
+/* footer  */
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  max-width: 1200px;
+  margin: 60px 0;
+}
+
+footer ul {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(4, auto);
+  gap: 25px;
+}
+
+footer ul li {
+  list-style-type: none;
+  font-size: var(--font-size-li);
+  font-family: var(--primary-font-family);
+  font-weight: 500;
+  line-height: 24px;
+}
+
+footer div:last-child {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 25px;
+  width: 30%;
+}
